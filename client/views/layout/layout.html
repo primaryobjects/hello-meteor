@@ -1,0 +1,18 @@
+<template name='layout'>
+    <body>
+        Hello World!
+        <hr>
+
+        <div>
+            <a href='/'>Home</a> | <a href='/about'>About</a> | {{> loginButtons}}
+        </div>
+
+        <div class='container' style='margin-top: 10px;'>
+            {{> yield}}
+            
+            <footer>
+                <p>Copyright &copy; <a href="http://www.primaryobjects.com/articles" target="_blank">Primary Objects</a> 2015</p>
+            </footer>
+        </div>
+    </body>
+</template>

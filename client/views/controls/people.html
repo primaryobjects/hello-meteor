@@ -1,0 +1,5 @@
+<template name='people'>
+    {{ #each people }}
+        <div>{{ name }} likes {{ color }} {{ #if user }} * {{/if}} </div>
+    {{ /each }}
+</template>
